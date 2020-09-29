@@ -1,0 +1,55 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-enable */
+html, header, main, footer, aside, 
+ul, li, h4, p  
+/* stylelint-disable */
+span, applet, object, iframe, abbr, acronym, u, blockquote, pre,
+address, big, cite, code, del, dfn, em, ins, kbd, h3, h5, h6, h1, h2,
+q, s, samp, small, strike, strong, sub, sup, tt, var, figure, figcaption,
+center, dl, dt, dd, ol, fieldset, form, label, legend,  a,
+table, caption, tbody, tfoot, thead, tr, th, td, canvas, 
+details, embed, hgroup, menu, output, ruby, section, img,
+summary, time, mark, audio, video, div, body, b, i, nav, article
+
+
+/* Site styles show as below */
+
+html {
+    font-family: "Arial";
+    line-height: 1em; /* 16px / 16px = 1 */
+}
+header, main, footer {
+    position: absolute;
+}
+main, aside {
+    margin-top: 150px;   
+}
+main {
+    width: 55%;
+}
+aside {
+    float: right;
+    width: 40%;
+    background-color:  #85c1e9 ;
+}
+footer {
+    bottom:5px;
+}
+#navigation {
+    list-style-type: none;
+}
+h4 {
+    text-decoration: underline;
+}
+p {
+    line-height: 1.5em; /* 24px / 16px = 1.5 */
+}
+
+
+   
+
+  
+  
