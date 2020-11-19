@@ -11,7 +11,7 @@ function double(num) {
   return x;
 }
 
-double(6);
+double(2.5);
 console.log('The value of x is', x, '-- it should be 5.');
 
 /*
