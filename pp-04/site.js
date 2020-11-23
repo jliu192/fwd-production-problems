@@ -23,9 +23,9 @@ console.log('The value of x is', x, '-- it should be 5.');
   Be sure to comment out the original `double()` function so you
   can accurately test your work.
 */
-(function(obj){
+(function(obj) {
   var x=5;
-  var double=function(num){
+  function double(num) {
     var x=num*2;
     return x;
   }
@@ -33,11 +33,27 @@ console.log('The value of x is', x, '-- it should be 5.');
 })();
 double(6);
 
-
-
-
 /*
   Step 3. Rewrite your corrected `double()` function from Step 2.
   so that non-number values passed into the function are handled
   in some reasonable way.
 */
+(function(obj) {
+  var x=5;
+  function double(num) {
+    var x=num*2;
+    return x;
+  }
+  function getDouble(num) {
+    if (isNaN(num)) {
+      throw 'The value is not a number!';
+    }
+  }
+  try {
+    getDouble('A');
+  } catch (e) {
+    console.error(e);
+  }
+  console.log('The value of x is', x, '-- it should be 5.');
+})();
+double(6);
