@@ -10,7 +10,6 @@ you’re working on colors for your Project 3, the feature branch should be call
 2. Write the GitHub URL for your feature branch here:
 https://github.com/jliu192/project_three/tree/html
 https://github.com/jliu192/project_three/tree/img
-https://github.com/jliu192/project_three/tree/js
 https://github.com/jliu192/project_three/tree/resume_layout
 https://github.com/jliu192/project_three/tree/pets_layout
 https://github.com/jliu192/project_three/tree/amateur
