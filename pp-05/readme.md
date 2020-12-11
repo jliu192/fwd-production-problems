@@ -12,5 +12,7 @@ https://github.com/jliu192/project_three/tree/html
 https://github.com/jliu192/project_three/tree/img
 https://github.com/jliu192/project_three/tree/js
 https://github.com/jliu192/project_three/tree/resume_layout
+https://github.com/jliu192/project_three/tree/pets_layout
+https://github.com/jliu192/project_three/tree/amateur
 
 Don't forget now to commit and push that change to your Production Problems fork.
